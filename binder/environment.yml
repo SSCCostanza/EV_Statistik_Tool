@@ -1,0 +1,17 @@
+name: shiny-binder
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.2    # core R
+  - r-shiny      # shiny
+  - r-tidyverse  # ggplot2, dplyr, purrr, etc
+  - r-r6         # R6
+  - r-zip        # zip
+  - r-png        # read and write PNG images
+  - r-lubridate  # date handling
+  - r-e1071      # e1071
+  - r-rlang      # rlang
+  - r-checkmate  # checkmate
+  - r-glue       # glue
+  - r-shinydashboard  # shinydashboard
+  - r-here       # here

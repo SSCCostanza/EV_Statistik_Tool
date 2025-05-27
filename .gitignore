@@ -1,0 +1,42 @@
+# R spezifisch
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rapp.history
+.Rprofile
+.Renviron
+
+# Shiny spezifisch
+shinyapps/
+shiny-server/
+*.Rproj
+
+# R Paketverwaltung
+packrat/
+renv/library/
+renv/python/
+renv/staging/
+__pycache__/
+*.pyc
+
+# Mac spezifisch
+.DS_Store
+
+# Logs und temporäre Dateien
+*.log
+*.tmp
+*.swp
+*.bak
+*.zip
+
+# Output/Export/Plots
+out/
+*.png
+*.pdf
+*.svg
+
+# Sonstiges
+.idea/
+.vscode/
+*.sqlite
