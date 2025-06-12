@@ -10,9 +10,9 @@ import <- function(path) {
   }
 }
 
-import("Model/PlotGenerator.R")
 import("View/MainView.R")
 import("Controller/MainController.R")
+import("Model/PlotGenerator.R")
 
 app <- R6::R6Class(
   "app",
